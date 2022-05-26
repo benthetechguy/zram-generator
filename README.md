@@ -83,7 +83,7 @@ generator in rust.
 It is recommended to use an existing package:
 
 * Fedora: `sudo dnf install zram-generator-defaults` (or `sudo dnf install zram-generator` to install without the default configuration)
-* Debian: packages provided by nabijaczleweli, see https://debian.nabijaczleweli.xyz/README.
+* Debian: `sudo apt install systemd-zram-generator` (or [nabijaczleweli's package](https://debian.nabijaczleweli.xyz/README))
 * Arch: `sudo pacman -S zram-generator` (or https://aur.archlinux.org/packages/zram-generator-git/ for the latest git commit)
 
 To install directly from sources, execute `make build && sudo make install NOBUILD=true`:
